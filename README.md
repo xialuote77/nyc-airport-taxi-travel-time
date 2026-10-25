@@ -4,6 +4,8 @@
 
 An end-to-end data science project combining **400,942 airport trips**, hourly weather observations and taxi-zone geography. Built with **Python, PySpark / Spark ML, pandas, GeoPandas and Matplotlib**.
 
+**[Read the full report (PDF, 9 pages)](reports/nyc-airport-taxi-travel-time-report.pdf)**
+
 ![Travel time by departure hour](assets/travel_time_by_departure_hour.png)
 
 ## Key results
@@ -54,6 +56,7 @@ The descriptive buffer in maps/heatmaps is **P95 minus median observed duration*
 | `plots/` | Original PDF figures |
 | `tables/` | Original LaTeX result tables |
 | `docs/` | Methodology, limitations and provenance |
+| `reports/` | Full written report (public copy with student ID removed) |
 
 ## Run locally
 
