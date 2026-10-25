@@ -1,5 +1,18 @@
 # NYC Airport Taxi Travel-Time Prediction
 
+## 中文概览
+
+**项目定位：大数据处理 / 行程时间预测 / 时间顺序验证。** 将纽约黄出租车行程与机场逐小时天气及出租车区域信息整合，研究乘客去 JFK／LaGuardia 时应预留多少行程时间。
+
+- **个人贡献**：个人课程项目，覆盖数据下载、PySpark 清洗与特征构建、时空分析、模型比较、误差缓冲和报告。
+- **技术栈**：Python、PySpark/Spark ML、pandas、GeoPandas、Matplotlib；比较 Ridge、Gamma GLR、Random Forest 和 GBT。
+- **原项目结果**：400,942 条有效机场行程；按月份扩展训练并保留六月测试集。Gamma GLR 的六月 MAE 为 **7.05 分钟**、RMSE 为 9.83、R² 为 0.732。
+- **可靠性分析**：基于历史验证误差加入 20.68 分钟缓冲，六月样本覆盖率为 96.99%；这是历史总体覆盖表现，不是单程保证，也不是实时交通服务。
+
+[阅读完整英文报告（PDF）](reports/nyc-airport-taxi-travel-time-report.pdf)
+
+## English documentation
+
 **How much extra time should passengers allow when taking a yellow taxi to JFK or LaGuardia?**
 
 An end-to-end data science project combining **400,942 airport trips**, hourly weather observations and taxi-zone geography. Built with **Python, PySpark / Spark ML, pandas, GeoPandas and Matplotlib**.
